@@ -1,0 +1,191 @@
+.card {
+    background-color: white;
+    margin-top: 30px;
+    border-top: solid #FF696A;
+    padding: 50px;
+    box-shadow: 0px 1px 50px 3px rgba(0, 32, 126, 0.1);
+    border-radius: 0px 0px 6px 6px;
+}
+
+.card-critere {
+    background-color: white;
+    margin-top: 30px;
+    border-top: solid #FF696A;
+    padding: 50px;
+    box-shadow: 0px 1px 50px 3px rgba(0, 32, 126, 0.1);
+    border-radius:0px 0px 6px 6px;
+    height: 330px;
+  }
+
+// Booking card stylesheet
+.card-candidates {
+  height: 90px;
+  margin: 20px;
+  text-shadow: 0 1px 3px rgba(0,0,0,0.6);
+  background-color: $grey;
+  color: white;
+  position: relative;
+  .fa-star {
+    color: #FCF4B2;
+  }
+  .fa-star-half-o {
+    color: #FCF4B2;
+  }
+  .fa-star-o {
+    color: #FCF4B2;
+  }
+}
+.card-candidates-user {
+  position: absolute;
+  left: 10px;
+  top: 10px;
+}
+.card-candidates-content {
+  position: absolute;
+  top: 10px;
+  left: 100px;
+  font-size: 10px;
+}
+.card-candidates-link {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  width: 100%;
+  z-index: 3;
+  background: $blue;
+  opacity: 0;
+}
+.card-candidates:hover {
+  background-color: $blue;
+  cursor: pointer;
+}
+.card-candidates-link:hover{
+  opacity: 0.1;
+}
+
+.slot-card-vacant {
+  height: 200px;
+  background-color: #F7F7F7;
+  border: solid 1px #e8e8e8;
+  margin: 5px;
+  padding: 10px;
+}
+
+.slot-card-booked {
+  height: 200px;
+  background-color: #fff7f7;
+  border: solid 1px #ffb2b2;
+  margin: 5px;
+  padding: 10px;
+  .avatar-large {
+    margin: 1 0px 0px;
+  }
+  p {
+    margin-bottom: 0px;
+  }
+}
+
+.card-dashboard {
+  color: #424242;
+  background-color: white;
+  margin-top: 30px;
+  padding: 0px 30px;
+  border: solid 1px #ffcccc;
+  border-top: solid 1px $red;
+  min-height: 420px;
+  border-radius: 0px 0px 6px 6px;
+  opacity: 0.8;
+  &:hover {
+    opacity: 1;
+  }
+}
+
+.card-category {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  color:white;
+  font-size: 10px;
+  text-transform: uppercase;
+  padding: 5px 10px;
+  border-radius: 50px;
+}
+
+.card-dashboard-description {
+  color: #424242;
+  h2 {
+    font-size: 20px;
+    text-transform: uppercase;
+    font-weight: bolder
+  }
+  p {
+  }
+}
+
+.card-dashboard-image {
+  background-color: white;
+  margin-top: 30px;
+  padding: 50px;
+  border: solid 1px #ffe0e0;
+  min-height: 200px;
+  position: relative;
+  margin-bottom: 30px;
+}
+.card-flat-creation {
+  background-color: white;
+  margin-top: 30px;
+  padding: 50px;
+  border: solid 1px #ffe0e0;
+  min-height: 310px
+}
+
+#candidates {
+  h2 {
+    font-size: 16px;
+  }
+}
+
+// Card for tenants candidates
+.card-tenant {
+  background-color: white;
+  margin-top: 30px;
+  padding-bottom: 50px;
+  border-radius: 4px;
+  position:relative;
+  box-shadow: 0 15px 35px rgba(50,50,93,.1), 0 5px 15px rgba(0,0,0,.07);
+}
+
+// .card-tenant:before {
+//     content: '';
+//     position: absolute;
+//     top: 250px;
+//     left: 0;
+//     right: 0;
+//     height: 1000px;
+//     background: $red;
+//     transform: skewY(-12deg);
+//     z-index: -1;
+// }
+
+.card-tenant-avatar {
+  top: -15px;
+  right: 50%;
+  transform: translateY(-30%)
+}
+
+.card-tenant-description {
+  margin: -25px;
+  h2 {
+    font-size: 20px !important;
+    font-weight: 900;
+    color: #555459;
+  }
+  p, i {
+   color: #555459;
+   marged-top: 3px;
+  }
+  a {
+    margin-top: 20px;
+  }
+}

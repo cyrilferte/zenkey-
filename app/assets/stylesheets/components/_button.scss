@@ -1,0 +1,16 @@
+.btn-red {
+  background-color: $red;
+  color: white;
+  opacity: 0.9;
+}
+
+.btn-red:hover {
+  color:white;
+  background-color: $red;
+  opacity: 1;
+  border: solid 1px #f75656;
+}
+
+.btn:focus {
+  color: white;
+}

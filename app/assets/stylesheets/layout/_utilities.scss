@@ -1,0 +1,61 @@
+/* -------------------------------------
+ * Utilities classes
+ * These are examples of utilities classes
+ * Feel free to change them and create your own
+ * ------------------------------------- */
+
+// Body
+
+.highlight {
+  color: #FF696A;
+  margin: 0px 0px 30px 0px;
+}
+
+// Paddings
+.padded {
+  padding-top: 5em;
+  padding-bottom: 5em;
+}
+
+// Margins
+.marged-top {
+  margin-top: 2em;
+}
+.marged-bottom {
+  margin-bottom: 50px;
+}
+.sm-marged-bottom {
+  margin-bottom: 30px;
+}
+
+// Backgrounds
+.bg-black {
+  background: #4a4a4a;
+}
+.bg-grey {
+  background: #aeaeae;
+}
+.bg-blue {
+  background: #00a3e1;
+}
+.bg-dark-blue {
+  background: #3b5998;
+}
+.footer-down {
+  margin-top: 70px;
+  min-height: calc(100vh - 70px);
+}
+.footer-down-with-flat-navbar {
+  margin-top: 115px;
+  min-height: calc(100vh - 70px);
+}
+textarea {
+  width: 20em;
+  height: 30px !important;
+}
+
+// Links
+a {
+  color: $red;
+}
+
